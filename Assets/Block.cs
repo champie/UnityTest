@@ -15,6 +15,7 @@ public class Block : MonoBehaviour
     {
         var position = gameObject.transform.localPosition;
         position.x += 0.005f;
+        position.y += 0.005f;
         gameObject.transform.localPosition = position;
     }
 }
